@@ -242,6 +242,10 @@
     <Compile Include="Migrations\201810242111418_AddGenresAndMoviesTablesToDatabase.Designer.cs">
       <DependentUpon>201810242111418_AddGenresAndMoviesTablesToDatabase.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810242116097_PopulateGenresTable.cs" />
+    <Compile Include="Migrations\201810242116097_PopulateGenresTable.Designer.cs">
+      <DependentUpon>201810242116097_PopulateGenresTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -368,6 +372,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810242111418_AddGenresAndMoviesTablesToDatabase.resx">
       <DependentUpon>201810242111418_AddGenresAndMoviesTablesToDatabase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810242116097_PopulateGenresTable.resx">
+      <DependentUpon>201810242116097_PopulateGenresTable.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
