@@ -222,6 +222,18 @@
     <Compile Include="Migrations\201810241918548_ApplyAnnotationsToCustomerName.Designer.cs">
       <DependentUpon>201810241918548_ApplyAnnotationsToCustomerName.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810241953288_AddNameColumnToMembershipType.cs" />
+    <Compile Include="Migrations\201810241953288_AddNameColumnToMembershipType.Designer.cs">
+      <DependentUpon>201810241953288_AddNameColumnToMembershipType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810241955274_UpdateNamesInMembershipTypeTable.cs" />
+    <Compile Include="Migrations\201810241955274_UpdateNamesInMembershipTypeTable.Designer.cs">
+      <DependentUpon>201810241955274_UpdateNamesInMembershipTypeTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810242005034_RepairTypoInPayAsYouGoMembershipType.cs" />
+    <Compile Include="Migrations\201810242005034_RepairTypoInPayAsYouGoMembershipType.Designer.cs">
+      <DependentUpon>201810242005034_RepairTypoInPayAsYouGoMembershipType.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Customer.cs" />
@@ -332,6 +344,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810241918548_ApplyAnnotationsToCustomerName.resx">
       <DependentUpon>201810241918548_ApplyAnnotationsToCustomerName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810241953288_AddNameColumnToMembershipType.resx">
+      <DependentUpon>201810241953288_AddNameColumnToMembershipType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810241955274_UpdateNamesInMembershipTypeTable.resx">
+      <DependentUpon>201810241955274_UpdateNamesInMembershipTypeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810242005034_RepairTypoInPayAsYouGoMembershipType.resx">
+      <DependentUpon>201810242005034_RepairTypoInPayAsYouGoMembershipType.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
